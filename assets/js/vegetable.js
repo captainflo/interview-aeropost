@@ -80,7 +80,7 @@ recipes = [
   },
 ];
 
-// Render all receipes
+// Render all recipes
 for (let i = 0; i < recipes.length; i++) {
   $('#recipes').append(`
   <div class='col-md-4 col-sm-12'>
@@ -90,7 +90,7 @@ for (let i = 0; i < recipes.length; i++) {
         ${recipes[i].title}
         </div>
         <div class='prep'>
-          <p>${recipes[i].prep}<span>${recipes[i].make}</span><span class='link'>View Receipe and shopping list</span></p>
+          <p>${recipes[i].prep}<span>${recipes[i].make}</span><span class='link'>View Recipe and shopping list</span></p>
         </div>
       </div>
     </div>
