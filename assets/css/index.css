@@ -50,6 +50,7 @@ body {
 }
 
 .banner button {
+  cursor: pointer;
   font-family: 'Lucida Grande';
   margin-top: 28px;
   font-weight: bold;
@@ -380,6 +381,7 @@ body {
   border-radius: 5px;
   font-size: 16px;
   padding-top: 13px;
+  cursor: pointer;
 }
 .shop-all {
   width: 222px;
@@ -390,6 +392,7 @@ body {
   border-radius: 5px;
   padding-top: 13px;
   margin-left: 14px;
+  cursor: pointer;
 }
 
 /***************************  Footer *************************************/
