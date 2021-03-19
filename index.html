@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Boostrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Lato (simular to Helvetica) -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <!-- css -->
+  <link rel="stylesheet" href="./assets/css/index.css">
+  <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Icon -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+  <title>interview</title>
+</head>
+<body>
+  <!-- Banner -->
+  <div class="jumbotron banner">
+    <div class="container">
+      <div class="row">
+        <div class='col-md-12 col-sm-12'>
+          <img src='./assets/images/logo-aeropost.png'>
+          <h1>Locally sourced fresh <span>produce every day</span></h1>
+          <p>The best selection of fresh fruits and vegetables
+            <span>available at your neighborhood club.</span>
+          </p>
+          <button class="btn">Shop fresh produce now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- New Organic Section -->
+  <div class='organic'>
+    <div class='container'>
+      <div class='new-organic'>
+        <div class='new-organic-title'>New Organic Selection</div>
+        <a class='view-all'>View all Organic selection</a>
+      </div>
+      <div id='organic' class='row'></div>
+    </div>
+  </div>
+<!-- New Local Fresh Section -->
+<div class='local-fresh'>
+  <div class='container'>
+    <div class='local-fresh'>
+      <div class='local-fresh-title'>New Local Fresh produce from your region</div>
+      <a class='view-all'>View all Fruit and vegetables</a>
+    </div>
+    <div id='vegetables' class='row'></div>
+  </div>
+</div>
+<!-- Shop our favorte -->
+<div class='container'>
+  <div class='row'>
+    <div class='col-md-6'>
+      <div class='description-favorte'>
+        <p>Shop our favorte recipes from <span>our best selection of local fresh produce</span></p>
+      </div>
+    </div>
+    <div class='col-md-6'>
+      <div class='wrapper-img-favorte'>
+        <img class='img-fluid' src='assets/images/favorte.png'/>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Receipes -->
+<div class='container'>
+  <div class='recipes'>
+    <div class='recipes-title'>Directly from our chef to your kitchen!</div>
+    <a class='view-all'>View all receipes</a>
+  </div>
+  <div id='recipes' class='row'></div>
+</div>
+<!-- Commitment -->
+<div class='container'>
+  <div class='tomato'>
+    <div class='row'>
+      <div class="col-md-5 col-sm-12"></div>
+      <div class="col-md-7 col-sm-12 ">
+        <div class='tomato-card'>
+          <div class='title-tomato'>
+            Fresh Produce, straight <span>from the field</span>
+          </div>
+          <ul>
+            Our commitment:
+            <li>Collaborate with the local farmers</li>
+            <li>Archive guaranteed freshness in all our products.</li>
+            <li>Provide members with nutrient-rich vegetables and</li>
+            <li>fruits.Import (hight quality) produccts only when local</li>
+            <li>options are not available.</li> 
+          </ul>
+          <ul>
+            ¿Cómo garantizamos frescura?
+            <li>Compartimos technologia, conocimiento y experiencia</li>
+            <li>con agricultores locales para asegurar la produccion</li>
+            <li>de cultivos con los mas altros estandares de calidad</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Shop online -->
+<div class='shop-online'>
+  <div class='container-fluid'>
+  <div class='row'>
+    <div class='col-md-7'>
+      <div class='shop-online-title'>Shop online Pick up at<span>the club</span></div>
+      <p>Click & Go allows Members to order online through PriceSmart.com and collect their purchases at their preferred Club. Special parking areas for Click&Go are available for visitors to pick up their orders without getting out of their cars; our staff takes care of bringing the orders to them. </p>
+    </div>
+    <div class='col-md-5'>
+      <img   class='img-benefit' src='/assets/images/benefits-1.png'/>
+    </div>
+  </div>
+</div>
+</div>
+<hr class='line'>
+<div class='order'>
+  <div class='container-fluid'>
+  <div class='row'>
+    <div class='col-md-6'>
+      <img class='img-benefit-2' src='/assets/images/benefits-2.png'/>
+    </div>
+    <div class='col-md-6'>
+      <div class='order-title'>Order delivery service</div>
+      <h2 class='order-title-under'>Need your items delivered to your door? Get same-day delivery and enjoy staying home</h2>
+      <p>We value our Members’ time and safety. You can now shop from wherever you are, through PriceSmart.com, and receive your orders at home or any other address of your choice. </p>
+    </div>
+  </div>
+</div>
+</div>
+<!-- Member -->
+<div class='container'>
+  <div class='wrapper-blue'>
+    <div class='wrapper-blue-title text-center'>
+     Become a member and enjoy the convenience of receiving your favorite PriceSmart products at the comfort of your home, quickly and safely.
+    </div>
+    <div class='wrapper-button text-center'>
+      <div class='btn shop-member'>Shop memberships</div>
+      <div class='btn shop-all'>Shop all categories</div>
+    </div>
+  </div>
+</div>
+<!-- Line -->
+<div class='line-footer'></div>
+<div class="footer">
+  <div class="container">
+    <div class='row'>
+    <div class='col-md-6 '>
+      <div class="footer-copyright">
+        © 2019 PriceSmart INC. Todos los derechos reservados.
+      </div>
+    </div>
+    <div class='col-md-6'>
+      <div class="footer-links">
+        <a href="#"><img src='assets/images/footer/facebook.png'/></a>
+        <a href="#"><img src='assets/images/footer/instagram.png'/></a>
+        <a href="#"><img src='assets/images/footer/twitter.png'/></a>
+        <a href="#"><img src='assets/images/footer/youtube.png'/></a>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+</div>
+
+<script src="assets/js/vegetable.js"></script>
+</body>
+
+</html>

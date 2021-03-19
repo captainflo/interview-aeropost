@@ -1,0 +1,599 @@
+body {
+  font-family: 'Roboto';
+}
+/* Font for Lucida grande */
+@font-face {
+  font-family: 'Lucida Grande';
+  src: url('../font/lucida-grande/LucidaGrande.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+/* Banner */
+.jumbotron {
+  background: url('../images/banner-aeropost.png') no-repeat center center;
+  height: 522px;
+  margin-bottom: 0rem !important;
+  padding-left: 0rem !important;
+  padding-right: 0rem !important;
+}
+
+.banner {
+  color: white;
+}
+
+.banner img {
+  margin-top: -19px;
+}
+
+.banner h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  font-weight: 300;
+  margin-top: 37px;
+  line-height: 50px;
+  letter-spacing: -1.85px;
+}
+
+.banner h1 span {
+  display: block;
+}
+
+.banner p {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  margin-top: 20px;
+  line-height: 26px;
+}
+
+.banner p span {
+  display: block;
+}
+
+.banner button {
+  font-family: 'Lucida Grande';
+  margin-top: 28px;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #004fa2;
+  border-radius: 3px;
+  color: white;
+  width: 283px;
+  height: 62px;
+}
+
+/* New Organic Section */
+.organic,
+.local-fresh {
+  background-color: #f8f8fa;
+}
+.new-organic,
+.local-fresh,
+.recipes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.new-organic-title,
+.local-fresh-title,
+.recipes-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #16133e;
+  font-size: 24px;
+  line-height: 58px;
+  margin-top: 29px;
+  margin-bottom: 6px;
+}
+
+.view-all {
+  margin-top: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #004fa2 !important;
+}
+
+.img-fruit-vegetable {
+  width: 265px;
+  height: 265px;
+  margin-bottom: 5px;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0px 2px 3px #9999;
+}
+
+.wrapper-fruit-vegetable img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 10%;
+  max-height: 265px;
+}
+
+.description-fruit {
+  font-family: 'Lato', sans-serif;
+  padding: 10px 11px 10px 5px;
+  color: #43484d;
+  font-weight: normal;
+  line-height: 21px;
+  font-size: 17px;
+}
+
+.description-fruit p {
+  margin-bottom: 10px;
+  width: 100%;
+}
+.description-fruit p span {
+  display: block;
+}
+
+.fas {
+  color: #ffcf5c;
+}
+
+.no-checked {
+  color: #e4e4e4 !important;
+}
+
+.raiting {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  line-height: 17px;
+  margin-left: 6px;
+  color: #a4b0ba;
+}
+
+.price {
+  font-family: 'Lucida Grande';
+  font-weight: bold;
+  line-height: 18px;
+  font-size: 18px;
+  color: #242424;
+  margin-top: 9px;
+}
+
+/* Favorte */
+.wrapper-img-favorte {
+  margin-top: 57px;
+  margin-bottom: 24px;
+}
+
+.description-favorte {
+  color: #6d6c76;
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  line-height: 48px;
+  margin-top: 123px;
+}
+
+.description-favorte span {
+  display: block;
+}
+
+/* Recipes */
+.recipes-card {
+  width: 100%;
+  height: 365px;
+  border-radius: 5px;
+  border: 1px solid #d8d8d8;
+}
+
+.recipes-card img {
+  margin-top: 34px;
+  margin-left: 30px;
+}
+
+.title-recipe {
+  font-family: 'Roboto', sans-serif;
+  color: #16133e;
+  font-size: 23px;
+  margin-top: 28px;
+  line-height: 28px;
+  margin-left: 32px;
+}
+
+.prep {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  margin-left: 33px;
+  line-height: 26px;
+  color: #4d4d4d;
+}
+
+.prep p span {
+  display: block;
+}
+
+.link {
+  color: #004fa2;
+}
+
+/* Commitment Section */
+.tomato {
+  margin-top: 19px;
+  max-width: 1151px;
+  height: 576px;
+  border-radius: 5px;
+  background: url('../images/tomato-background.png');
+}
+
+.tomato-card {
+  background-color: #ffffff;
+  max-width: 603px;
+  height: 528px;
+  margin: 22px 26px 25px 0px;
+  border-radius: 5px;
+  opacity: 0.9;
+  border: 1px solid #979797;
+}
+
+.title-tomato {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 42px;
+  line-height: 48px;
+  margin-top: 43px;
+  padding-left: 61px;
+}
+.title-tomato span {
+  display: block;
+}
+
+.tomato-card ul {
+  font-family: 'Roboto', sans-serif;
+  font-size: 26px;
+  letter-spacing: -0.2px;
+  line-height: 36px;
+  font-weight: 300;
+  color: #5e6977;
+  margin-left: 18px;
+  margin-top: 16px;
+  list-style: none;
+}
+
+.tomato-card li {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  font-weight: normal;
+  color: #43484d;
+  margin-left: 30px;
+}
+
+/* Shop Online */
+.shop-online {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 979px;
+  height: 332px;
+  margin-top: 121px;
+}
+
+.shop-online-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 42px;
+  font-weight: 300;
+  color: #242424;
+  line-height: 48px;
+}
+
+.shop-online-title span {
+  display: block;
+}
+
+.shop-online p {
+  font-size: 18px;
+  color: #43484d;
+  line-height: 26px;
+  margin-top: 20px;
+}
+.img-benefit {
+  display: block;
+  margin-left: auto;
+}
+
+.line {
+  margin-top: 104px;
+  border: 1px solid #e1e8ee;
+}
+
+.order {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 961px;
+  margin-top: 120px;
+}
+
+.img-benefit-2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.order-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 42px;
+  font-weight: 300;
+  color: #242424;
+  line-height: 48px;
+  margin-top: 36px;
+  margin-bottom: 23px;
+}
+
+.order-title-under {
+  font-family: 'Roboto', sans-serif;
+  color: #5e6977;
+  line-height: 36px;
+  letter-spacing: -0.2px;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+/* Member */
+
+.wrapper-blue {
+  display: block;
+  margin-top: 113px;
+  height: 392px;
+  border-radius: 5px;
+  background: #03508c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #016bc4
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #03508c,
+    #016bc4
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+}
+
+.wrapper-blue-title {
+  display: block;
+  max-width: 100%;
+  padding-top: 84px;
+  padding-left: 130px;
+  padding-right: 130px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  line-height: 52px;
+}
+
+.wrapper-button {
+  margin-top: 42px;
+}
+.shop-member {
+  width: 192px;
+  height: 50px;
+  font-family: 'Roboto', sans-serif;
+  color: #16133e;
+  background-color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  padding-top: 13px;
+}
+.shop-all {
+  width: 222px;
+  height: 50px;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding-top: 13px;
+  margin-left: 14px;
+}
+
+.line-footer {
+  width: 100%;
+  height: 10px;
+  margin-top: 67px;
+  background: #17b9ea; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #5087ff,
+    #544fff,
+    #790acc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #5087ff,
+    #544fff,
+    #790acc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Footer */
+
+.footer {
+  height: 79px;
+}
+.footer-copyright {
+  margin-top: 36px;
+  color: #7a7a7a;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.footer-links {
+  display: flex;
+  margin-top: 20px;
+  justify-content: flex-end;
+}
+.footer-links img {
+  width: 44px;
+  height: 44px;
+  margin-right: 15px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+
+/* Media Query */
+@media (max-width: 994px) and (min-width: 768px) {
+  /* Tablet */
+  .wrapper-fruit-vegetable img {
+    padding-top: 30%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  /*Small smartphones Big smartPhone
+  /* Banner */
+  .banner {
+    text-align: center;
+  }
+
+  .banner h1 span {
+    display: inline;
+  }
+  .banner p {
+    font-size: 16px;
+  }
+  /* New Organic Section */
+  .new-organic,
+  .local-fresh,
+  .recipes {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .new-organic-title,
+  .local-fresh-title,
+  .recipes-title {
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .view-all {
+    margin-top: 29px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .wrapper-fruit-vegetable {
+    text-align: center;
+  }
+
+  .img-fruit-vegetable {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: auto;
+  }
+
+  /* Favorte */
+  .description-favorte {
+    margin-top: 25px;
+    text-align: center;
+  }
+  /* Reccipe */
+  .recipes-card {
+    margin-top: 20px;
+    height: auto;
+  }
+
+  /* Commitment Section */
+  .tomato {
+    height: auto;
+    padding: 5px;
+  }
+
+  .tomato-card {
+    margin: 0;
+  }
+
+  .title-tomato {
+    margin-top: 20px;
+    text-align: center;
+    padding-left: 0px;
+    font-size: 28px;
+    line-height: 37px;
+  }
+  .tomato-card ul {
+    font-size: 20px;
+    margin-left: 5px;
+    padding: 4px;
+  }
+  .tomato-card li {
+    font-size: 16px;
+    margin-left: 20px;
+    line-height: 21px;
+  }
+  /* Shop-online */
+  .shop-online {
+    width: auto;
+    height: auto;
+    margin-top: 60px;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+  .shop-online-title {
+    font-size: 30px;
+    text-align: center;
+    line-height: 33px;
+  }
+  .shop-online p {
+    text-align: center;
+  }
+
+  .img-benefit {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .order {
+    width: auto;
+    margin-top: 60px;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+
+  .order-title {
+    font-size: 30px;
+    text-align: center;
+    line-height: 33px;
+  }
+
+  .order p {
+    text-align: center;
+  }
+
+  .order-title-under {
+    text-align: center;
+    line-height: 30px;
+  }
+  /* Menber */
+  .wrapper-blue-title {
+    padding-top: 65px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 33px;
+  }
+
+  .wrapper-button {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .shop-all {
+    margin-left: 0px;
+    margin: 10px;
+  }
+  /* Footer */
+  .footer-links {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .footer-copyright {
+    text-align: center;
+  }
+}
