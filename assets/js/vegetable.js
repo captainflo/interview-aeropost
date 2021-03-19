@@ -97,7 +97,7 @@ for (let i = 0; i < recipes.length; i++) {
   `);
 }
 
-// Render Function for Organic and vegetables
+// Render Organic and vegetables
 for (let i = 0; i < vegetables.length; i++) {
   if (vegetables[i].type === 'organic') {
     $('#organic').append(`
