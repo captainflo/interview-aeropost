@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
 }
 /* Font for Lucida grande */
 @font-face {
@@ -7,7 +7,8 @@ body {
   src: url('../font/lucida-grande/LucidaGrande.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
 
-/* Banner */
+/****************************** Banner Section ***************************/
+/*************************************************************************/
 .jumbotron {
   background: url('../images/banner-aeropost.png') no-repeat center center;
   height: 522px;
@@ -59,8 +60,9 @@ body {
   width: 283px;
   height: 62px;
 }
+/*************************** New Organic Section **************************/
+/*************************************************************************/
 
-/* New Organic Section */
 .organic,
 .local-fresh {
   background-color: #f8f8fa;
@@ -150,7 +152,8 @@ body {
   margin-top: 9px;
 }
 
-/* Favorte */
+/*************************** Favorte **************************************/
+/*************************************************************************/
 .wrapper-img-favorte {
   margin-top: 57px;
   margin-bottom: 24px;
@@ -206,7 +209,8 @@ body {
   color: #004fa2;
 }
 
-/* Commitment Section */
+/*************************** Commitment Section ***************************/
+/*************************************************************************/
 .tomato {
   margin-top: 19px;
   max-width: 1151px;
@@ -259,7 +263,8 @@ body {
   margin-left: 30px;
 }
 
-/* Shop Online */
+/*************************** Shop Online **********************************/
+/*************************************************************************/
 .shop-online {
   display: block;
   margin-left: auto;
@@ -331,7 +336,8 @@ body {
   margin-bottom: 10px;
 }
 
-/* Member */
+/***************************  Member *************************************/
+/*************************************************************************/
 
 .wrapper-blue {
   display: block;
@@ -386,6 +392,8 @@ body {
   margin-left: 14px;
 }
 
+/***************************  Footer *************************************/
+/*************************************************************************/
 .line-footer {
   width: 100%;
   height: 10px;
@@ -404,8 +412,6 @@ body {
     #790acc
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
-/* Footer */
 
 .footer {
   height: 79px;
@@ -431,14 +437,8 @@ body {
   opacity: 1;
 }
 
-/* Media Query */
-@media (max-width: 994px) and (min-width: 768px) {
-  /* Tablet */
-  .wrapper-fruit-vegetable img {
-    padding-top: 30%;
-  }
-}
-
+/******************************************** Media Query *******************************************/
+/****************************************************************************************************/
 @media only screen and (max-width: 1200px) {
   /*Small smartphones Big smartPhone
   /* Banner */
@@ -595,5 +595,12 @@ body {
 
   .footer-copyright {
     text-align: center;
+  }
+}
+
+@media (max-width: 994px) and (min-width: 768px) {
+  /* Tablet */
+  .wrapper-fruit-vegetable img {
+    padding-top: 30%;
   }
 }
