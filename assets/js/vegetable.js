@@ -61,19 +61,19 @@ const vegetables = [
 // Data Receipes
 recipes = [
   {
-    image: '/recipes/quinoa.png',
+    image: 'recipes/quinoa.png',
     title: 'Quinoa Salad with Crispy Tofu Cubes and Lime Vinaigrette',
     prep: 'Prep: 10 min. Cook: 15 min.',
     make: 'Makes: 10 servings',
   },
   {
-    image: '/recipes/zucchini.png',
+    image: 'recipes/zucchini.png',
     title: 'Summer Zucchini Pasta',
     prep: 'Prep/Total time: 25 min.',
     make: 'Makes: 10 servings',
   },
   {
-    image: '/recipes/pesto.png',
+    image: 'recipes/pesto.png',
     title: 'Pesto Corn Salad with Shrimp',
     prep: 'Prep/Total Time: 30 min',
     make: 'Makes: 4 servings',
