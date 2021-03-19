@@ -85,7 +85,7 @@ for (let i = 0; i < recipes.length; i++) {
   $('#recipes').append(`
   <div class='col-md-4 col-sm-12'>
       <div class='recipes-card'>
-        <img class='img-fluid' src='/assets/images/${recipes[i].image}'/>
+        <img class='img-fluid' src='./assets/images/${recipes[i].image}'/>
         <div class='title-recipe'>
         ${recipes[i].title}
         </div>
